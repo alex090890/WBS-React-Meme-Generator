@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#meme-container {
+  position: relative;
+  display: inline-block;
+}
+
+.uploaded-image {
+  max-width: 100%;
+}
+
+.toptext {
+  position: absolute;
+  top: 50px;
+  left: -50px;
+  width: 100%;
+  text-align: right;
+  color: orange;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px 0 #8a1f1f, -2px -2px 0 #5abb47, 2px -2px 0 #a1502b, -2px 2px 0 #c031b9;
+}
+
+.bottomtext {
+  position: absolute;
+  bottom: 50px;
+  left: -50px;
+  width: 100%;
+  text-align: right;
+  color: orange;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px 0 #8a1f1f, -2px -2px 0 #5abb47, 2px -2px 0 #a1502b, -2px 2px 0 #c031b9;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
